@@ -10,6 +10,7 @@ import SalaryCapSummary from './SalaryCapSummary';
 import ExtrapoolerDisplay from './ExtrapoolerDisplay';
 import RookiePicksDisplay from './RookiePicksDisplay';
 import DraftPicksDisplay from './DraftPicksDisplay';
+import InjuryList from './InjuryList';
 import Link from 'next/link';
 
 interface TeamPageClientProps {
@@ -37,11 +38,46 @@ export default function TeamPageClient({ team, data }: TeamPageClientProps) {
   }, [searchParams, data.availableYears, data.currentSeasonYear]);
 
   const [selectedYear, setSelectedYear] = useState(yearFromUrl);
+  const [injuryNames, setInjuryNames] = useState<string[]>([]);
+  const [injuries, setInjuries] = useState<Array<{
+    team: string;
+    name: string;
+    position: string;
+    estReturn: string;
+    date: string;
+    status: string;
+    comment: string;
+    playerUrl?: string;
+  }>>([]);
 
   // Sync state with URL when URL changes
   useEffect(() => {
     setSelectedYear(yearFromUrl);
   }, [yearFromUrl]);
+
+  // Fetch injury data
+  useEffect(() => {
+    async function fetchInjuries() {
+      try {
+        const response = await fetch('/api/nhl/injuries');
+        if (response.ok) {
+          const data = await response.json();
+          if (data.items && Array.isArray(data.items)) {
+            // Store full injury data for InjuryList component
+            setInjuries(data.items);
+            // Extract just the player names from injuries for red star indicators
+            const names = data.items.map((injury: { name: string }) => injury.name);
+            setInjuryNames(names);
+          }
+        }
+      } catch (err) {
+        console.error('Error fetching injuries:', err);
+        // Don't show error to user, just silently fail
+      }
+    }
+
+    fetchInjuries();
+  }, []);
 
   // Initialize URL with default year if not present (only on mount)
   useEffect(() => {
@@ -132,11 +168,13 @@ export default function TeamPageClient({ team, data }: TeamPageClientProps) {
           <span className="w-1 h-8 bg-gradient-to-b from-ice-300 to-ice-500 rounded-full"></span>
           Roster
         </h2>
-        <RosterSection title="Forwards" players={forwards} selectedYear={selectedYear} />
-        <RosterSection title="Defense" players={defense} selectedYear={selectedYear} />
-        <RosterSection title="Goalies" players={goalies} selectedYear={selectedYear} />
-        <RosterSection title="Rookies" players={rookies} selectedYear={selectedYear} />
+        <RosterSection title="Forwards" players={forwards} selectedYear={selectedYear} injuryNames={injuryNames} />
+        <RosterSection title="Defense" players={defense} selectedYear={selectedYear} injuryNames={injuryNames} />
+        <RosterSection title="Goalies" players={goalies} selectedYear={selectedYear} injuryNames={injuryNames} />
+        <RosterSection title="Rookies" players={rookies} selectedYear={selectedYear} injuryNames={injuryNames} />
       </div>
+
+      <InjuryList injuries={injuries} owner={team.owner} poolData={data} />
     </div>
   );
 }

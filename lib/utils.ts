@@ -65,3 +65,51 @@ export function formatYearRange(year: number): string {
   return `${year}-${nextYear}`;
 }
 
+/**
+ * Normalize a player name to handle both "First Last" and "Last, First" formats
+ * Returns an array of possible normalized formats for comparison
+ */
+export function normalizePlayerName(name: string): string[] {
+  const trimmed = name.trim();
+  const normalized = trimmed.toLowerCase();
+  
+  // If name contains a comma, it's likely in "Last, First" format
+  if (trimmed.includes(',')) {
+    const parts = trimmed.split(',').map(p => p.trim()).filter(p => p.length > 0);
+    if (parts.length === 2) {
+      // Convert "Last, First" to "First Last"
+      const firstLast = `${parts[1]} ${parts[0]}`.toLowerCase();
+      return [normalized, firstLast];
+    }
+  }
+  
+  // If name doesn't contain a comma, try converting to "Last, First" format
+  // Split by space and assume last word is last name, rest is first name
+  const spaceParts = trimmed.split(/\s+/).filter(p => p.length > 0);
+  if (spaceParts.length >= 2) {
+    const lastPart = spaceParts[spaceParts.length - 1];
+    const firstParts = spaceParts.slice(0, -1);
+    const lastFirst = `${lastPart}, ${firstParts.join(' ')}`.toLowerCase();
+    return [normalized, lastFirst];
+  }
+  
+  return [normalized];
+}
+
+/**
+ * Check if a player name matches any injury name
+ */
+export function isPlayerInjured(
+  playerName: string,
+  injuryNames: string[]
+): boolean {
+  const playerNameVariants = normalizePlayerName(playerName);
+  
+  return injuryNames.some(injuryName => {
+    const injuryNameVariants = normalizePlayerName(injuryName);
+    return playerNameVariants.some(playerVariant =>
+      injuryNameVariants.some(injuryVariant => playerVariant === injuryVariant)
+    );
+  });
+}
+

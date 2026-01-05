@@ -1,13 +1,14 @@
 import { Player } from '@/lib/types';
-import { formatCurrency, getPlayerSalaryForYear, isStringSalary, formatYearRange } from '@/lib/utils';
+import { formatCurrency, getPlayerSalaryForYear, isStringSalary, formatYearRange, isPlayerInjured } from '@/lib/utils';
 
 interface RosterSectionProps {
   title: string;
   players: Player[];
   selectedYear: number;
+  injuryNames?: string[];
 }
 
-export default function RosterSection({ title, players, selectedYear }: RosterSectionProps) {
+export default function RosterSection({ title, players, selectedYear, injuryNames = [] }: RosterSectionProps) {
   if (players.length === 0) {
     return null;
   }
@@ -51,12 +52,21 @@ export default function RosterSection({ title, players, selectedYear }: RosterSe
             {players.map((player) => (
               <tr key={player.name} className="hover:bg-ice-700/40 transition-colors">
                 <td className="px-4 py-3 text-sm font-medium text-ice-50">
-                  {player.name}
-                  {player.isRookie && (
-                    <span className="ml-2 px-2 py-0.5 text-xs font-semibold bg-ice-300/20 text-ice-200 border border-ice-300/30 rounded">
-                      Rookie
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="flex items-center gap-2">
+                      {player.name}
+                      {isPlayerInjured(player.name, injuryNames) && (
+                        <span className="text-red-500" title="Injured">
+                          ★
+                        </span>
+                      )}
                     </span>
-                  )}
+                    {player.isRookie && (
+                      <span className="px-2 py-0.5 text-xs font-semibold bg-ice-300/20 text-ice-200 border border-ice-300/30 rounded">
+                        Rookie
+                      </span>
+                    )}
+                  </div>
                 </td>
                 <td className="px-4 py-3 text-sm text-ice-200">{player.nhlTeam}</td>
                 <td className="px-4 py-3 text-sm text-ice-300">

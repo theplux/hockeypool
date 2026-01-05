@@ -100,6 +100,12 @@ export default function Navigation() {
               >
                 Règles
               </Link>
+              <Link
+                href="/blessure"
+                className="border-transparent text-theme-secondary hover:border-ice-300 dark:hover:border-ice-300 hover:text-theme-primary inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors"
+              >
+                Blessure
+              </Link>
             </div>
           </div>
           <div className="flex items-center gap-2">
@@ -163,6 +169,13 @@ export default function Navigation() {
               className="text-theme-secondary hover:bg-ice-800/60 hover:text-theme-primary block px-3 py-2 rounded-md text-base font-medium transition-colors"
             >
               Règles
+            </Link>
+            <Link
+              href="/blessure"
+              onClick={() => setMobileMenuOpen(false)}
+              className="text-theme-secondary hover:bg-ice-800/60 hover:text-theme-primary block px-3 py-2 rounded-md text-base font-medium transition-colors"
+            >
+              Blessure
             </Link>
           </div>
         </div>
