@@ -98,9 +98,13 @@ export default function TradesClient({ trades, ownerSlugMap }: TradesClientProps
               >
                 <div className="bg-ice-900/60 px-6 py-4 border-b border-ice-300/20">
                   <div className="flex items-center justify-between">
-                    {isExtrapooler && (
+                    {isExtrapooler ? (
                       <span className="px-3 py-1 text-xs font-semibold bg-blue-500/20 text-blue-300 border border-blue-500/30 rounded">
                         Extrapooler
+                      </span>
+                    ) : (
+                      <span className="px-3 py-1 text-xs font-semibold bg-blue-500/20 text-blue-300 border border-blue-500/30 rounded">
+                        Échange
                       </span>
                     )}
                     <span className="text-sm text-ice-300 ml-auto">
@@ -120,14 +124,14 @@ export default function TradesClient({ trades, ownerSlugMap }: TradesClientProps
                           {trade.teamBAssets}
                         </span>
                       </div>
-                      <div className="bg-ice-900/40 rounded-lg p-4 border border-ice-300/10">
+                      <div className="bg-ice-700/20 dark:bg-ice-900/40 rounded-lg p-4 border border-ice-300/20 dark:border-ice-300/10">
                         <div className="space-y-2">
                           {teamAAssets.map((asset, index) => (
                             <div
                               key={index}
-                              className="text-ice-200 flex items-start gap-2"
+                              className="text-theme-primary flex items-start gap-2"
                             >
-                              <span className="text-ice-400 mt-1">•</span>
+                              <span className="text-theme-tertiary mt-1">•</span>
                               <span>{asset}</span>
                             </div>
                           ))}
@@ -143,14 +147,14 @@ export default function TradesClient({ trades, ownerSlugMap }: TradesClientProps
                           {renderOwnerName(trade.teamA)}
                           <span className="text-sm text-ice-400">reçoit:</span>
                         </div>
-                        <div className="bg-ice-900/40 rounded-lg p-4 border border-ice-300/10">
+                        <div className="bg-ice-700/20 dark:bg-ice-900/40 rounded-lg p-4 border border-ice-300/20 dark:border-ice-300/10">
                           <ul className="space-y-2">
                             {teamBAssets.map((asset, index) => (
                               <li
                                 key={index}
-                                className="text-ice-200 flex items-start gap-2"
+                                className="text-theme-primary flex items-start gap-2"
                               >
-                                <span className="text-ice-400 mt-1">•</span>
+                                <span className="text-theme-tertiary mt-1">•</span>
                                 <span>{asset}</span>
                               </li>
                             ))}
@@ -164,14 +168,14 @@ export default function TradesClient({ trades, ownerSlugMap }: TradesClientProps
                           {renderOwnerName(trade.teamB)}
                           <span className="text-sm text-ice-400">reçoit:</span>
                         </div>
-                        <div className="bg-ice-900/40 rounded-lg p-4 border border-ice-300/10">
+                        <div className="bg-ice-700/20 dark:bg-ice-900/40 rounded-lg p-4 border border-ice-300/20 dark:border-ice-300/10">
                           <ul className="space-y-2">
                             {teamAAssets.map((asset, index) => (
                               <li
                                 key={index}
-                                className="text-ice-200 flex items-start gap-2"
+                                className="text-theme-primary flex items-start gap-2"
                               >
-                                <span className="text-ice-400 mt-1">•</span>
+                                <span className="text-theme-tertiary mt-1">•</span>
                                 <span>{asset}</span>
                               </li>
                             ))}

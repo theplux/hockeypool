@@ -7857,16 +7857,15 @@
           "teamName": "Tomy"
         },
         {
-          "name": "Jarry, Tristan",
-          "nhlTeam": "",
+          "name": "Vladar, Dan",
+          "nhlTeam": "Philadelphia",
           "positions": [
             "G"
           ],
           "contractYears": {
-            "2025": 5425000,
-            "2026": 4125000,
-            "2027": 4125000,
-            "2028": "UFA"
+            "2025": 3600000,
+            "2026": 3100000,
+            "2027": "UFA"
           },
           "isRookie": false,
           "teamName": "Tomy"
@@ -7950,7 +7949,7 @@
           {
             "slot": 3,
             "originalOwner": "Tomy",
-            "isUsed": false
+            "isUsed": true
           }
         ],
         "2026": [
