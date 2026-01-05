@@ -1087,13 +1087,29 @@ export function mergeDraftPicksData(
 
 /**
  * Save processed data to JSON file
+ * Note: On Vercel/production, filesystem writes are not allowed, so this is a no-op
  */
 export function saveProcessedData(data: PoolData, outputPath: string): void {
-  const dir = path.dirname(outputPath);
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
+  // Skip file writes on Vercel (read-only filesystem)
+  if (process.env.VERCEL === '1' || process.env.NODE_ENV === 'production') {
+    // In production/Vercel, we can't write to the filesystem
+    // The data is already being returned via the API, so caching to disk isn't necessary
+    return;
   }
-  fs.writeFileSync(outputPath, JSON.stringify(data, null, 2), 'utf-8');
+  
+  try {
+    const dir = path.dirname(outputPath);
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
+    }
+    fs.writeFileSync(outputPath, JSON.stringify(data, null, 2), 'utf-8');
+  } catch (error) {
+    // Silently fail in production - file caching is optional
+    // Only log in development
+    if (process.env.NODE_ENV === 'development') {
+      console.warn('Failed to save processed data to cache:', error);
+    }
+  }
 }
 
 /**
