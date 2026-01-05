@@ -1090,22 +1090,38 @@ export function mergeDraftPicksData(
  * Note: On Vercel/production, filesystem writes are not allowed, so this is a no-op
  */
 export function saveProcessedData(data: PoolData, outputPath: string): void {
-  // Skip file writes on Vercel (read-only filesystem)
-  if (process.env.VERCEL === '1' || process.env.NODE_ENV === 'production') {
-    // In production/Vercel, we can't write to the filesystem
+  // Skip file writes on Vercel or in serverless environments (read-only filesystem)
+  // Check multiple indicators of serverless/production environment
+  const isServerless = 
+    process.env.VERCEL === '1' || 
+    process.env.VERCEL_ENV !== undefined ||
+    process.env.NODE_ENV === 'production' ||
+    process.cwd().includes('/var/task') || // Vercel/AWS Lambda
+    process.cwd().includes('/tmp'); // Serverless environments
+  
+  if (isServerless) {
+    // In serverless environments, we can't write to the filesystem
     // The data is already being returned via the API, so caching to disk isn't necessary
     return;
   }
   
   try {
     const dir = path.dirname(outputPath);
+    // Check if directory exists before trying to create it
     if (!fs.existsSync(dir)) {
-      fs.mkdirSync(dir, { recursive: true });
+      try {
+        fs.mkdirSync(dir, { recursive: true });
+      } catch (mkdirError) {
+        // If we can't create the directory, just return silently
+        // This can happen in read-only filesystems
+        return;
+      }
     }
     fs.writeFileSync(outputPath, JSON.stringify(data, null, 2), 'utf-8');
   } catch (error) {
-    // Silently fail in production - file caching is optional
-    // Only log in development
+    // Silently fail - file caching is optional and not critical
+    // The data is still being returned to the caller
+    // Only log in development for debugging
     if (process.env.NODE_ENV === 'development') {
       console.warn('Failed to save processed data to cache:', error);
     }
