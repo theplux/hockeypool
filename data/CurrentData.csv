@@ -1,0 +1,423 @@
+Owner,Player name,NHL team,Position,2025-26 salary,2026-27 salary,2027-28 salary,2028-29 salary,is rookie
+Raphael,Seth Jarvis,Carolina,F,10.95,8.25,6.57,6.57,no
+Raphael,Roope Hintz,Dallas,F,10,7.25,6.9,6.9,no
+Raphael,Vincent Trocheck,New York Rangers,F,6,6,4.5,4,no
+Raphael,Cole Sillinger,Columbus,F,2.25,RFA,,,no
+Raphael,Mason McTavish,Anaheim,F,7,7,7,7,no
+Raphael,Jake Neighbours,St. Louis,F,3.5,4,RFA,,no
+Raphael,Tyler Toffoli,San Jose,F,7.5,6,4.5,UFA,no
+Raphael,Will Smith,San Jose,F,0.95,0.95,RFA,,no
+Raphael,Matthew Knies,Toronto,F,9,9,9,7,no
+Raphael,Evgeny Malkin,Pittsburgh,F,4.8,UFA,,,no
+Raphael,Jimmy Snuggerud,St. Louis,F,0.95,0.95,RFA,,no
+Raphael,Ivan Demidov,Montreal,F,0.975,0.975,RFA,,no
+Raphael,Victor Hedman,Tampa Bay,D,10,7.5,8.5,6,no
+Raphael,Pavel Mintyukov,Anaheim,D,0.855,RFA,,,no
+Raphael,Oliver Ekman-Larsson,Toronto,D,3.5,3,3,UFA,no
+Raphael,Jake Walman,Edmonton,D,3.3,7.24,7.5,8,no
+Raphael,Nils Lundkvist,Dallas,D,1.25,,,,no
+Raphael,Yegor Zamula,Philadelphia,D,1.9,RFA,,,no
+Raphael,Samuel Monthembeault,Montreal,G,3,2.45,UFA,,no
+Raphael,Joseph Woll,Toronto,G,3,4,4,UFA,no
+Raphael,Anton Silayev,New Jersey,D,,,,,yes
+Raphael,Cole Hutson,Washington,D,,,,,yes
+Raphael,Logan Mailloux,St. Louis,D,,,,,yes
+Raphael,Jesper Wallstedt,Minnesota,G,,,,,yes
+Raphael,Axel Sandin-Pellikka,Detroit,D,,,,,yes
+Raphael,Casey Seamus,New Jersey,D,,,,,yes
+Raphael,Victor Eklund,New York Islanders,F,,,,,yes
+Raphael,Anton Frondell,Chicago,F,,,,,yes
+Raphael,Ilya Prtoas,Washington,F,,,,,yes
+Raphael,Justin Carbonneau,St. Louis,F,,,,,yes
+Rudy,Matthew Tkachuk,Florida,F,11.25,10,8.75,7.5,no
+Rudy,Dylan Larkin,Detroit,F,10,8,8,8,no
+Rudy,Lukas Reichel,Vancouver,F,1.3,RFA,,,no
+Rudy,Tyson Foerster,Philadelphia,F,3.5,4,RFA,,no
+Rudy,Pavel Zacha,Boston,F,4.75,3.75,UFA,,no
+Rudy,Hendrix Lapierre,Washington,F,0.85,RFA,,,no
+Rudy,Logan Stankoven,Carolina,F,0.775,0.8,RFA,,no
+Rudy,Drake Batherson,Ottawa,F,6.5,6.55,UFA,,no
+Rudy,Filip Forsberg,Nashville,F,10,7.5,7,7,no
+Rudy,Sam Colangelo,Anaheim,F,0.85,0.85,RFA,,no
+Rudy,Alex Ovechkin,Washington,F,9,UFA,,,no
+Rudy,Mangiapanne,Edmonton,F,3.6,3.6,UFA,,no
+Rudy,Miro Heiskanen,Dallas,D,11,9,8,6.6,no
+Rudy,Simon Nemec,New Jersey,D,0.855,RFA,,,no
+Rudy,Shakir Mukhamadullin,San Jose,D,1,RFA,,,no
+Rudy,Owen Pickering,Pittsburgh,D,0.855,0.855,RFA,,no
+Rudy,Justin Faulk,St. Louis,D,4.5,4.5,UFA,,no
+Rudy,Timothy Liljegren,San Jose,D,2.6,UFA,,,no
+Rudy,Jordan Binnington,St. Louis,G,6.5,4.5,UFA,,no
+Rudy,Iaroslav Askarov,San Jose,G,1.9,2.1,RFA,,no
+Rudy,Matthew Savoie,Edmonton,F,,,,,yes
+Rudy,Aatu Raty,Vancouver,F,,,,,yes
+Rudy,Cayden Lindstrom,Columbus,F,,,,,yes
+Rudy,Brayden Yager,Winnipeg,F,,,,,yes
+Rudy,Matthew Samoskevich,Florida,F,,,,,yes
+Rudy,Emil Andrae,Philadelphia,D,,,,,yes
+Rudy,Sam Rinzel,Chicago,D,,,,,yes
+Rudy,Logan Hensler,Ottawa,D,,,,,yes
+Rudy,Isaac Howard,Edmonton,F,,,,,yes
+Rudy,Roger McQueen,Anaheim,F,,,,,yes
+Allaire,Brandon Hagel,Tampa Bay,F,9,6.75,5.45,5.45,no
+Allaire,Sam Reinhart,Florida,F,10,9.5,9.35,9.35,no
+Allaire,Logan Cooley,Utah,F,0.95,RFA,,,no
+Allaire,Nico Hischier,New Jersey,F,8,8.5,UFA,,no
+Allaire,Alex Laferriere,,F,3.5,4.4,4.4,RFA,no
+Allaire,Simon Holmstrom,,F,3.5,3.75,RFA,,no
+Allaire,Morgan Frost,,F,4.375,4.375,UFA,,no
+Allaire,Matthew Wood,,F,0.95,0.95,RFA,,no
+Allaire,Dalibor Dvorsky,,F,0.95,0.855,0.855,RFA,no
+Allaire,Marco Rossi,,F,4,5,6,RFA,no
+Allaire,Shane Pinto,,F,5,RFA,,,no
+Allaire,Mavrik Bourque,,F,0.95,RFA,,,no
+Allaire,Nolan Allan,,D,0.8325,RFA,,,no
+Allaire,Adam Boqvist,,D,0.85,RFA,,,no
+Allaire,Philip Broberg,,D,4.580917,RFA,,,no
+Allaire,Olen Zellweger,,D,0.8325,RFA,,,no
+Allaire,Rasmus Dahlin,,D,12,11,11,11,no
+Allaire,Martin Fehervary,,D,2.075,6,6,6,no
+Allaire,"Oettinger, Jake",,G,10,10,7.5,8,no
+Allaire,"Markström, Jacob",,G,6,UFA,,,no
+Allaire,Yegor Surin,Nashville,F,,,,,yes
+Allaire,Jacob Pelletier,Tampa Bay,F,,,,,yes
+Allaire,Brennan Othmann,New York Rangers,F,,,,,yes
+Allaire,Kashawn Aitcheson,New York Islanders,D,,,,,yes
+Allaire,Gabe Perreault,New York Rangers,F,,,,,yes
+Allaire,Joshua Roy,Montreal,F,,,,,yes
+Allaire,Michael Hage,Montreal,F,,,,,yes
+Allaire,Trey Augustine,Detroit,G,,,,,yes
+Allaire,Jackson Smith,Columbus,D,,,,,yes
+Allaire,Bryce Pickford,Montreal,D,,,,,yes
+JS,Tage Thompson,Buffalo,F,7.142857,7.142857,7.142857,7.142857,no
+JS,William Nylander,Toronto,F,13.5,12.5,11.5,11,no
+JS,J.T Miller,New York Rangers,F,9,7,7.5,7,no
+JS,Anton Lundell,Florida,F,5.9,5.9,5,3.65,no
+JS,Kirill Marchenko,Columbus,F,3.975,3.975,RFA,,no
+JS,Dylan Holloway,,F,2.290457,RFA,,,no
+JS,Justin Brazeau,,F,1.5,1.5,UFA,,no
+JS,Filip Hallander,,F,0.775,0.775,UFA,,no
+JS,Zack Benson,,F,0.95,RFA,,,no
+JS,Yegor Chinakhov,,F,2.1,RFA,,,no
+JS,Jason Zucker,,F,4.75,4.75,UFA,,no
+JS,Otto Stenberg,,F,0.95,0.95,0.855,RFA,no
+JS,Thomas Harley,,D,4.5,RFA,,,no
+JS,Zach Werenski,,D,9.5,7.25,7.25,UFA,no
+JS,Evan Bouchard,,D,12,12,9,9,no
+JS,Sam Malinski,,D,1.4,UFA,,,no
+JS,Brandon Montour,,D,7,7,7,7,no
+JS,Grzelcyk,,D,1,UFA,,,no
+JS,Akira Schmid,,G,0.875,RFA,,,no
+JS,Darcy Kuemper,,G,4.5,3.75,UFA,,no
+JS,Berkly Catton,Seattle,F,,,,,yes
+JS,Danila Yurov,Minnesota,F,,,,,yes
+JS,Oliver Moore,Chicago,F,,,,,yes
+JS,Colby Barlow,Winnipeg,F,,,,,yes
+JS,Oliver Bonk,Philadelphia,D,,,,,yes
+JS,Calum Ritchie,New York Islanders,C,,,,,yes
+JS,Luca Cagnoni,San Jose,D,,,,,yes
+JS,Caleb Desnoyers,Utah,F,,,,,yes
+JS,Ilya Nabokov,Colorado,G,,,,,yes
+Doc,"Caufield, Cole",,F,9.975,8.705,6.215,5.985,no
+Doc,"Suzuki, Nick",,F,8.75,6.25,6,6,no
+Doc,"Strome, Dylan",,F,4.5,4,4,UFA,no
+Doc,"Wilson, Tom",,F,7.5,5.625,6.3,6.275,no
+Doc,"Tkachuk, Brady",,F,10.5,8.5,7,UFA,no
+Doc,"Boldy, Matthew",,F,7.7,6,5.96,5.82,no
+Doc,"Terry, Troy",,F,7,7,7,7,no
+Doc,"Barbashev, Ivan",,F,4.2,4.2,4.2,UFA,no
+Doc,"Quinn, Jack",,F,3.25,3.5,RFA,,no
+Doc,"Kulich, Jiri",,F,0.855,0.855,RFA,,no
+Doc,"Rakell, Rickard",,F,4.8,3.6,3.6,UFA,no
+Doc,"Monahan, Sean",,F,5.4,4.7,5.2,5.2,no
+Doc,"Kulikov, Dmitry",,D,1.27,1.09,0.84,UFA,no
+Doc,"Mahura, Josh",,D,0.9,0.915,UFA,,no
+Doc,"Xhekaj, Arber",,D,1.3,RFA,,,no
+Doc,"Mikkola, Niko",,D,2,6.5,6.5,6.2,no
+Doc,"Lambos, Carson",,D,0.8325,RFA,,,no
+Doc,"Josi, Roman",,D,8,7.222,7,UFA,no
+Doc,"Luukkonen, Ukko-Pekka",,G,4.75,4.75,4.75,4.75,no
+Doc,"Demko, Thatcher",,G,5,UFA,,,no
+Doc,"Hofer, Joel ",,,,,,,yes
+Doc,"Tarasov, Daniil",,,,,,,yes
+Doc,"Korchinski, Kevin",,,,,,,yes
+Doc,"Iginla, Tij",,,,,,,yes
+Doc,"Levshunov, Artyom",,,,,,,yes
+Doc,"Parekh, Zayne",,,,,,,yes
+Doc,Scheafer,,,,,,,yes
+Doc,Misa,,,,,,,yes
+Dufour,"Eichel, Jack",,F,10,17.7,17.7,17.2,no
+Dufour,"Pastrnak, David",,F,12.5,11.25,11.25,10.5,no
+Dufour,"Bratt, Jesper",,F,9,8,7.2,7.2,no
+Dufour,"Zegras, Trevor",,F,5.75,RFA,,,no
+Dufour,"Kaprizov, Kirill",,F,7.5,19.1,19.1,19.1,no
+Dufour,"Marchment, Mason",,F,3.6,UFA,,,no
+Dufour,"Blake, Jackson",,F,0.925,7.5,7.5,6.9,no
+Dufour,"Hughes, Jack",,F,8.5,8,7.5,7,no
+Dufour,"Doan, Josh",,F,0.925,RFA,,,no
+Dufour,"Zuccarello, Mats",,F,3.55,UFA,,,no
+Dufour,"Evangelista, Luke",,F,2.25,3.75,RFA,,no
+Dufour,"McMann, Bobby",,F,1.35,UFA,,,no
+Dufour,"Makar, Cale",,D,8.7,6.7,UFA,,no
+Dufour,"Clarke, Brandt",,D,0.8325,RFA,,,no
+Dufour,"Petry, Jeff",,D,0.775,UFA,,,no
+Dufour,"Nikishin, Alexander ",,D,0.925,RFA,,,no
+Dufour,"Dunn, Vince",,D,7,5.4,UFA,,no
+Dufour,"Wilsby, Adam",,D,0.775,0.775,RFA,,no
+Dufour,"Vasilevskiy, Andrei",,G,9,8,6,UFA,no
+Dufour,"Wedgewood, Scott",,G,1.5,UFA,,,no
+Dufour,"Lekkerimaki, Jonathan",,,,,,,yes
+Dufour,"Buchelnikov, ",,,,,,,yes
+Dufour,"Bear, ",,,,,,,yes
+Dufour,"Kindel, Benjamin",,,,,,,yes
+Thomas,"Kucherov, Nikita",,F,8,7,UFA,,no
+Thomas,"Matthews, Auston ""A""",,F,15.2,11.08,10.02,UFA,no
+Thomas,"Raymond, Lucas",,F,8.075,8.075,8.075,8.075,no
+Thomas,"Geekie, Morgan",,F,5.25,6.5,6.5,5.5,no
+Thomas,"Bolduc, Zack",,F,0.8325,RFA,,,no
+Thomas,"Olofsson, Victor",,F,1.575,UFA,,,no
+Thomas,"Sherwood, Kiefer",,F,1.3,UFA,,,no
+Thomas,"Barzal, Mathew",,F,9.15,9.15,9.15,9.15,no
+Thomas,"Toews, Jonathan ",,F,2,UFA,,,no
+Thomas,"Kurashev, Philip",,F,1.2,RFA,,,no
+Thomas,"Leonard, Ryan",,F,0.95,0.95,RFA,,no
+Thomas,"Perrey, Corey",,F,2,UFA,,,no
+Thomas,"Simashev, Dmitry",,D,0.95,0.95,0.95,RFA,no
+Thomas,"Byram, Bowen",,D,6.25,6.25,,,no
+Thomas,"Sanderson, Jake",,D,8.05,8.05,8.05,8.05,no
+Thomas,"Drysdale, Jamie",,D,2.3,RFA,,,no
+Thomas,"Hughes, Luke",,D,9,9,9,9,no
+Thomas,"Edvinsson, Simon",,D,0.8325,RFA,,,no
+Thomas,"Ullmark, Linus",,G,7,8,9,9,no
+Thomas,"Andersen, Frederik",,G,2.75,UFA,,,no
+Thomas,"Helenius, Konsta",,,,,,,yes
+Thomas,"Miroshnichenko, Ivan",,,,,,,yes
+Thomas,"Willander, Tom",,,,,,,yes
+Thomas,"But, Daniil",,,,,,,yes
+Thomas,"Luchanko, Jett",,,,,,,yes
+Thomas,"Eiserman, Cole",,,,,,,yes
+Thomas,"Reschny, Cole",,,,,,,yes
+Thomas,"Zonnon, Bill",,,,,,,yes
+Ludo,"Konecny, Travis",,F,11,8.25,11,10.6,no
+Ludo,"Guentzel, Jake",,F,9.947,7.958,7.958,7.958,no
+Ludo,"Zetterlund, Fabian",,F,3.8,4.3,4.73,UFA,no
+Ludo,"McCann, Jared",,F,4.25,4.25,UFA,,no
+Ludo,"Eklund, William",,F,0.8325,RFA,,,no
+Ludo,"Van Riemsdyk, James",,F,1,UFA,,,no
+Ludo,"Palmieri, Kyle",,F,4.75,4.75,,,no
+Ludo,"Lehkonen, Artturi",,F,4,4,UFA,,no
+Ludo,"Tavaras, John",,F,5.5,5,3.7,3.8,no
+Ludo,"Donato, Ryan",,F,5.25,4.25,3.25,3.25,no
+Ludo,"Lee, Anders",,F,4.5,UFA,,,no
+Ludo,"Gauthier, Cutter",,F,0.95,RFA,,,no
+Ludo,"Forsling, Gustav",,D,6.525,6.525,6.525,6.525,no
+Ludo,"Evans, ryker",,D,2.1,2,RFA,,no
+Ludo,"Burns, Brent",,D,1,UFA,,,no
+Ludo,"Kulak, Brett",,D,2.25,UFA,,,no
+Ludo,"Letang, Kris",,D,4.8,4.8,4.8,UFA,no
+Ludo,"Schneider, Braden",,D,2.64,RFA,,,no
+Ludo,"Hellebuyck, Connor",,G,10,7.5,10,9,no
+Ludo,"Blackwood, Mackenzie",,G,5.25,5.25,5.25,5.25,no
+Ludo,"Cossa, Sebastian",,,,,,,yes
+Ludo,"Buium, Zeev",,,,,,,yes
+Ludo,"Lysell, Fabian",,,,,,,yes
+Ludo,"Reinbacher, David",,,,,,,yes
+Ludo,"Greentree, Liam",,,,,,,yes
+Ludo,"Nyman, Jani",,,,,,,yes
+Ludo,"Artamonov, Nikita",,,,,,,yes
+Ludo,"Martone, Porter",,,,,,,yes
+Ludo,O'Brien,,,,,,,yes
+Ludo,"Kantserov, Roman",,,,,,,yes
+P-O,"MacKinnon, Nathan",,F,16.5,12.15,9.9,9.9,no
+P-O,"Vilardi, Gabe",,F,7,7.6,7.6,7.6,no
+P-O,"Connor, Kyle",,F,7,15,15,15,no
+P-O,"Fantilli, Adam",,F,0.95,RFA,,,no
+P-O,"Benn, Jamie",,F,1,UFA,,,no
+P-O,"Kane, Patrick",,F,3,UFA,,,no
+P-O,"Chernyshov, Igor",,F,0.95,0.975,0.8775,RFA,no
+P-O,"Duchene, Matt",,F,6,4.8,3.6,3.6,no
+P-O,"Burakovsky, Andre",,F,5,3.75,UFA,,no
+P-O,"Bertuzzi, Tyler",,F,6,4.8,4.2,UFA,no
+P-O,"Debrincat, Alex",,F,8.25,6.75,UFA,,no
+P-O,"Cozens, Dylan",,F,7.1,7.1,7.1,7.1,no
+P-O,"Hutson, Lane",,D,0.95,12,12,10.5,no
+P-O,"Carlson, John",,D,6,UFA,,,no
+P-O,"DeAngelo, Tony",,D,1.75,UFA,,,no
+P-O,"Andersson, Rasmus",,D,4.55,UFA,,,no
+P-O,"Blankenburg, Nick",,D,0.775,UFA,,,no
+P-O,"Spence, Jordan",,D,1.7,RFA,,,no
+P-O,"Dostal, Lukas",,G,6.5,6.5,6.5,6.5,no
+P-O,"Gustavsson, Filip",,G,3,8,8.5,7.2,no
+P-O,"Yakemchuk, Carter",,,,,,,yes
+P-O,"Svozil, Stanislav",,,,,,,yes
+P-O,"Kemell, Joakim",,,,,,,yes
+P-O,"Koivunen, Ville",,,,,,,yes
+P-O,"Halttunen, Kasper",,,,,,,yes
+P-O,"Minten, Fraser",,,,,,,yes
+P-O,"Boumedienne, Sascha",,,,,,,yes
+P-O,"Mooney, LJ",,,,,,,yes
+Jeff,"Robertson, Jason",,F,9.3,RFA,,,no
+Jeff,"Voronkov, Dmitri",,F,4,4.35,RFA,,no
+Jeff,"Point, Brayden",,F,12,9.75,7.6,7.2,no
+Jeff,"Panarin, Artemi",,F,8,UFA,,,no
+Jeff,"Mantha, Anthony",,F,2.5,UFA,,,no
+Jeff,"Michkov, Matvei",,F,0.95,0.95,RFA,,no
+Jeff,"Rantanen, Mikko",,F,15,11.25,13.75,14,no
+Jeff,"Paul, Nick",,F,3,2.5,2.5,2.5,no
+Jeff,"Giroux, Claude",,F,2,UFA,,,no
+Jeff,"Eriksson Ek, Joel",,F,7.5,6,4.5,3,no
+Jeff,"Cuylle, Will",,F,3.12,4.68,RFA,,no
+Jeff,"Dorofeyev, Pavel",,F,1.6,RFA,,,no
+Jeff,"Gostisbehere, Shayne",,D,3.2,2.4,UFA,,no
+Jeff,"Lohrei, Mason",,D,3.2,3.2,RFA,,no
+Jeff,"Lilleberg, Emil",,D,0.8,0.8,RFA,,no
+Jeff,"York, Cam",,D,5.15,5.15,5.15,5.15,no
+Jeff,"Raddysh, Darren",,D,0.836,UFA,,,no
+Jeff,"Korczak, Kaedan",,D,0.825,3.25,3.25,3.25,no
+Jeff,"Thompson, Logan",,G,7,6.85,6.5,5.5,no
+Jeff,"Bussi, Brandon",,G,0.775,UFA,,,no
+Jeff,"Rehkopf, Carson",,,,,,,yes
+Jeff,"Cormier, Lukas",,,,,,,yes
+Jeff,"Yegorov, Mikhail",,,,,,,yes
+Jeff,"Bordeleau, Thomas",,,,,,,yes
+Jeff,"Turcotte, Alex",,,,,,,yes
+Jeff,"Hagens, James",,,,,,,yes
+Jeff,"Nadeau, Bradly",,,,,,,yes
+Desbiens,"Nazar, Frank",,F,0.95,9.1,8.659937,6.599999,no
+Desbiens,"Thomas, Robert",,F,10.5,8.25,6.6,6.6,no
+Desbiens,"Hyman, Zach",,F,6.425,5.175,UFA,,no
+Desbiens,"Byfield, Quinton",,F,7,5.5,6.25,6.25,no
+Desbiens,"Schmaltz, Nick",,F,8.5,UFA,,,no
+Desbiens,"Guenther, Dylan",,F,9,6.75,9,9,no
+Desbiens,"Kasper, Marco",,F,0.855,0.855,RFA,,no
+Desbiens,"Ohgren, Liam",,F,0.855,0.855,RFA,,no
+Desbiens,"Marner, Mitch",,F,15,14,13.75,11.25,no
+Desbiens,"Newhook, Alex",,F,2.7,2.1,RFA,,no
+Desbiens,"Slafkovsky, Juraj",,F,10,10,9,7.8,no
+Desbiens,"Kapanen, Oliver",,F,0.925,0.925,RFA,,no
+Desbiens,"Weegar, MacKenzie",,D,6.25,6.25,6.25,6.25,no
+Desbiens,"Perbix, Nick",,D,2.75,2.75,UFA,,no
+Desbiens,"Klingberg, John",,D,4,UFA,,,no
+Desbiens,"Thrun, Henry",,D,1.025,RFA,,,no
+Desbiens,"Thompson, Jack",,D,0.8,UFA,,,no
+Desbiens,"Vaakanainen, Urho",,D,1.65,1.45,UFA,,no
+Desbiens,"Wolf, Dustin",,G,0.85,8,7.5,7.5,no
+Desbiens,"Pickard, Calvin",,G,1,UFA,,,no
+Desbiens,"Danielson, Nate",,,,,,,yes
+Desbiens,"Cowan, Easton",,,,,,,yes
+Desbiens,"Brandsegg-Nygard, Michael",,,,,,,yes
+Desbiens,"Geekie, Conor",,,,,,,yes
+Desbiens,"Morrow, Scott",,,,,,,yes
+Desbiens,"Cootes, Braeden",,,,,,,yes
+Desbiens,"Zharovsky, Alexander",,,,,,,yes
+Desbiens,"George, Carter",,,,,,,yes
+Bureau,"Stuetzle, Tim",,F,9,9,10,10,no
+Bureau,"Johnston, Wyatt",,F,8.4,8.4,8.4,8.4,no
+Bureau,"Aho, Sebastian",,F,12,9,12,10,no
+Bureau,"Coronato, Mat",,F,7,6.5,6.5,6.5,no
+Bureau,"Johnson, Kent",,F,1.8,2,RFA,,no
+Bureau,"Kadri, Nazem",,F,7,7,7,7,no
+Bureau,"Necas, Martin",,F,7,14,14,14,no
+Bureau,"Robertson, Nick",,F,1.825,RFA,,,no
+Bureau,"Gaudette, Adam",,F,2,2,UFA,,no
+Bureau,"Podkolzin, Vasily",,F,2.95,2.95,2.95,UFA,no
+Bureau,"Heineman, Emil",,F,1.1,1.1,RFA,,no
+Bureau,"Poitras, Matthew",,F,0.87,RFA,,,no
+Bureau,"Sergachev, Mikhail",,D,11.05,8.3,6.6375,6.6375,no
+Bureau,"Morrissey, Josh",,D,4.8,4.8,4.8,UFA,no
+Bureau,"Gilbert, Dennis",,D,0.875,UFA,,,no
+Bureau,"Suter, Ryan",,D,no contract,,,,no
+Bureau,"Bernard-Docker, Jacob",,D,0.875,RFA,,,no
+Bureau,"Perunovich, Scott",,D,0.775,UFA,,,no
+Bureau,"Vejmelka, Karel",,G,5.75,5.75,5.1,3.7,no
+Bureau,"Stolarz, Anthony",,G,2.25,5.075,3.81,3.07,no
+Bureau,"Brennan, Tyler",,,,,,,yes
+Bureau,"Annunen, Justus",,,,,,,yes
+Bureau,"Jiricek, Adam",,,,,,,yes
+Bureau,"Horcoff, Will",,,,,,,yes
+Bureau,"Sale, Éduard",,,,,,,yes
+Bureau,"Greaves, Jet",,,,,,,yes
+Bureau,"Martin, Brady",,,,,,,yes
+Bureau,"Gridin, ",,,,,,,yes
+Tomy,"McDavid, Connor",,F,10,14.25,10.75,UFA,no
+Tomy,"Draisaitl, Leon",,F,16.5,16.5,16.5,14,no
+Tomy,"Keller, Clayton",,F,7,8.5,8.7,UFA,no
+Tomy,"Bedard, Connor",,F,0.95,RFA,,,no
+Tomy,"Bowman, Braeden",,F,0.8375,0.8375,RFA,,no
+Tomy,"Crosby, Sidney",,F,9.78,7.62,UFA,,no
+Tomy,"Kempe, Adrian",,F,5.5,UFA,,,no
+Tomy,"Celebrini, Macklin",,F,0.975,0.975,RFA,,no
+Tomy,"Carlsson, Leo",,F,0.95,RFA,,,no
+Tomy,"Kreider, Chris",,F,5,5,UFA,,no
+Tomy,"Garland, Connor",,F,5,8,7,6,no
+Tomy,"Johansson, Marcus",,F,0.8,UFA,,,no
+Tomy,"LaCombe, Jackson",,D,0.925,9,9,9,no
+Tomy,"Seider, Moritz",,D,8.55,8.55,8.55,8.55,no
+Tomy,"Moser, JJ",,D,4.05,RFA,,,no
+Tomy,"Stanley, Logan",,D,1.5,RFA,,,no
+Tomy,"Helleson, Drew",,D,1.1,1.1,RFA,,no
+Tomy,"Lauzon, Jeremy",,D,2,UFA,,,no
+Tomy,"Vladar, Dan",Philadelphia,G,3.6,3.1,UFA,,no
+Tomy,"Bobrovsky, Sergei",,G,6,UFA,,,no
+Tomy,"Luneau, Tristan",,,,,,,yes
+Tomy,"Lambert, Brad",,,,,,,yes
+Tomy,"Gaucher, Nathan",,,,,,,yes
+Tomy,"Fowler, Jacob",,,,,,,yes
+Tomy,"Andreyanov, Pyotr",,,,,,,yes
+Frank T,"Scheifele, Mark",,F,10,7.5,10,9,no
+Frank T,"Protas, Aliaksei",,F,3.75,3.5,3.125,2.5,no
+Frank T,"Rust, Bryan",,F,5.13,3.66,3.66,UFA,no
+Frank T,"Perfetti, Cole",,F,3.5,RFA,,,no
+Frank T,"Marchand, Brad",,F,7.5,6,4.5,4.5,no
+Frank T,"Brink, Bobby",,F,1.5,RFA,,,no
+Frank T,"Sennecke, Beckett",,F,0.975,0.975,0.8775,RFA,no
+Frank T,"Stone, Mark",,F,8,6,UFA,,no
+Frank T,"Hall, Taylor",,F,3.5,3.425,2.575,UFA,no
+Frank T,"Shabanov, Maxim",,F,0.975,RFA,,,no
+Frank T,"Finnie, Emmitt",,F,0.845,0.845,0.775,RFA,no
+Frank T,"Goncalves, Gage",,F,1.1,1.3,RFA,,no
+Frank T,"Theodore, Shea",,D,9.5,9.5,8.6,7.28,no
+Frank T,"Hughes, Quinn",,D,10.25,8.25,UFA,,no
+Frank T,"Toews, Devon",,D,7.75,6.25,7.75,7.75,no
+Frank T,"Fowler, Cam",,D,6.25,6.1,6.1,6.1,no
+Frank T,"Emberson, Ty",,D,1.3,1.3,UFA,,no
+Frank T,"Myers, Tyler",,D,2.9,2.3,UFA,,no
+Frank T,"Dobes, Jakub",,G,1.03,0.9,RFA,,no
+Frank T,"Knight, Spencer",,G,4.5,7.25,5.75,4.5,no
+Frank T,"Poulin, Samuel",,,,,,,yes
+Frank T,"Jiricek, David",,,,,,,yes
+Frank T,"McGroarty, Rutger",,,,,,,yes
+Frank T,"Connelly, Trevor",,,,,,,yes
+Frank T,"Parascak, Terik",,,,,,,yes
+Frank T,"Beck, Owen ",,,,,,,yes
+Frank T,"Merilainen, ",,,,,,,yes
+Frank T,"Graf, ",,,,,,,yes
+Bernard,"Nugent-Hopkins, Ryan",,F,6,4.75,3.75,3.75,no
+Bernard,"Wright, Shane",,F,0.855,0.855,RFA,,no
+Bernard,"Tuch, Alex",,F,4.75,UFA,,,no
+Bernard,"Peterka, John-Jason",,F,8,7.7,7.7,7.7,no
+Bernard,"Beniers, Matthew",,F,7.15,7.15,7.15,7.15,no
+Bernard,"O'Reilly, Ryan",,F,4,4,UFA,,no
+Bernard,"Teraivanen, Teuvo",,F,5.5,4.5,UFA,,no
+Bernard,"Kakko, Kaapo",,F,4.525,4.525,4.525,UFA,no
+Bernard,"Kyrou, Jordan",,F,10.5,8.25,6.6,6.6,no
+Bernard,"Nichushkin, Valeri",,F,7.3,5.8,4.8,4.8,no
+Bernard,"Gritsyuk, Arseny",,F,0.925,RFA,,,no
+Bernard,"Mercer, Dawson",,F,4.75,4.25,RFA,,no
+Bernard,"Fox, Adam",,D,9.5,7.5,7.25,7.25,no
+Bernard,"Rielly, Morgan",,D,8,6,6,6,no
+Bernard,"Kesselring, Michael",,D,1.4,RFA,,,no
+Bernard,"Bichsel, Lian",,D,0.95,0.855,RFA,,no
+Bernard,"Molendyk, Tanner",,D,0.95,0.855,0.855,RFA,no
+Bernard,"Pettersson, Elias",,D,0.87,0.775,RFA,,no
+Bernard,"Kochetkov, Pyotr",,G,1.75,2.5,UFA,,no
+Bernard,"Daccord, Joey",,G,5,5,5,5,no
+Bernard,"Dickinson, Sam",,,,,,,yes
+Bernard,"Brindley, Gavin",,,,,,,yes
+Bernard,"Mateychuk, Denton",,,,,,,yes
+Bernard,"Levi, Devon",,,,,,,yes
+Bernard,"Musty, Quentin",,,,,,,yes
+Bernard,"Cristall, Andrew",,,,,,,yes
+Bernard,"Potter, Cullen",,,,,,,yes
+Bernard,"Mrtka, Radim",,,,,,,yes
+Bernard,"Hrabal, Michael",,,,,,,yes

@@ -1,0 +1,34 @@
+Team,Owner,Player Name,NHL Team,Position,2025 Salary,2026 Salary,2027 Salary,Is Rookie
+Thunder,John Smith,Connor McDavid,Edmonton Oilers,C,8500000,8500000,8500000,False
+Thunder,John Smith,Nathan MacKinnon,Colorado Avalanche,C,12500000,12500000,12500000,False
+Thunder,John Smith,Cale Makar,Colorado Avalanche,D,9000000,9000000,9000000,False
+Thunder,John Smith,Andrei Vasilevskiy,Tampa Bay Lightning,G,9500000,9500000,9500000,False
+Thunder,John Smith,Connor Bedard,Chicago Blackhawks,C,950000,950000,950000,True
+Lightning,Mike Johnson,Auston Matthews,Toronto Maple Leafs,C,11600000,11600000,11600000,False
+Lightning,Mike Johnson,Leon Draisaitl,Edmonton Oilers,C,8500000,8500000,8500000,False
+Lightning,Mike Johnson,Victor Hedman,Tampa Bay Lightning,D,8000000,8000000,8000000,False
+Lightning,Mike Johnson,Igor Shesterkin,New York Rangers,G,5700000,5700000,5700000,False
+Lightning,Mike Johnson,Adam Fantilli,Columbus Blue Jackets,C,925000,925000,925000,True
+Blazers,Sarah Williams,David Pastrnak,Boston Bruins,RW,11250000,11250000,11250000,False
+Blazers,Sarah Williams,Mitch Marner,Toronto Maple Leafs,RW,10900000,10900000,10900000,False
+Blazers,Sarah Williams,Erik Karlsson,Pittsburgh Penguins,D,11500000,11500000,11500000,False
+Blazers,Sarah Williams,Thatcher Demko,Vancouver Canucks,G,5000000,5000000,5000000,False
+Blazers,Sarah Williams,Logan Cooley,Arizona Coyotes,C,950000,950000,950000,True
+Storm,Chris Brown,Nikita Kucherov,Tampa Bay Lightning,RW,9500000,9500000,9500000,False
+Storm,Chris Brown,Artemi Panarin,New York Rangers,LW,11500000,11500000,11500000,False
+Storm,Chris Brown,Quinn Hughes,Vancouver Canucks,D,7900000,7900000,7900000,False
+Storm,Chris Brown,Jake Oettinger,Dallas Stars,G,4000000,4000000,4000000,False
+Storm,Chris Brown,Leo Carlsson,Anaheim Ducks,C,925000,925000,925000,True
+Eagles,Lisa Davis,Sidney Crosby,Pittsburgh Penguins,C,8700000,8700000,8700000,False
+Eagles,Lisa Davis,Steven Stamkos,Tampa Bay Lightning,C,8000000,8000000,8000000,False
+Eagles,Lisa Davis,Adam Fox,New York Rangers,D,9500000,9500000,9500000,False
+Eagles,Lisa Davis,Connor Hellebuyck,Winnipeg Jets,G,6200000,6200000,6200000,False
+Eagles,Lisa Davis,Shane Wright,Seattle Kraken,C,950000,950000,950000,True
+Hawks,Tom Wilson,Jack Eichel,Vegas Golden Knights,C,10000000,10000000,10000000,False
+Hawks,Tom Wilson,Matthew Tkachuk,Florida Panthers,LW,9500000,9500000,9500000,False
+Hawks,Tom Wilson,Miro Heiskanen,Dallas Stars,D,8450000,8450000,8450000,False
+Hawks,Tom Wilson,Sergei Bobrovsky,Florida Panthers,G,10000000,10000000,10000000,False
+Hawks,Tom Wilson,Matvei Michkov,Philadelphia Flyers,RW,950000,950000,950000,True
+
+
+
